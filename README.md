@@ -1,2 +1,0 @@
-# rohithteja.github.io
-Portfolio
