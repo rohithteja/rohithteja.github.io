@@ -4703,3 +4703,9 @@ input, select, textarea {
 	  a:active {
 		text-decoration: underline;
 	  }
+
+	  .image-txt-container {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	  }
