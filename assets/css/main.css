@@ -4709,20 +4709,22 @@ input, select, textarea {
 		align-items: center;
 		flex-direction: row;
 		gap: 40px;
-	  }
-
-	  @media (max-width: 500px) {
-		#wrapper {
-			flex-direction: column;    
-		}
-		#right-content {
-			display: flex;
-		}
-	
-		section {
-			flex: 1;   
+	  
+		@media (max-width: 500px) {
+			#wrapper {
+				flex-direction: column;    
+			}
+			#right-content {
+				display: flex;
+			}
+		
+			section {
+				flex: 1;   
+			}
 		}
 	}
+
+	
 
 
 
