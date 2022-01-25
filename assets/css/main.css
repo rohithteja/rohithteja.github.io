@@ -4711,9 +4711,17 @@ input, select, textarea {
 		gap: 40px;
 	  }
 
-	  .row {
-		display: flex;
-		flex-direction: column; /* NEW */
+	  @media (max-width: 500px) {
+		#wrapper {
+			flex-direction: column;    
+		}
+		#right-content {
+			display: flex;
+		}
+	
+		section {
+			flex: 1;   
+		}
 	}
 
 
