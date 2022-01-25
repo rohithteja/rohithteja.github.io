@@ -4708,8 +4708,8 @@ input, select, textarea {
 		display: flex;
 		align-items: center;
 		flex-direction: row;
+		gap: 40px;
 	  }
 
-	  ul {margin-left: 0; padding-left: 60px;}
 
 
